@@ -24,7 +24,7 @@ export function getSortedPostsData() {
     // Combine the data with the id
     return {
       id,
-      ...(matterResult.data as { date: string; title: string })
+      ...matterResult.data as { date: string; title: string }
     }
   })
 
